@@ -366,7 +366,6 @@ class UResNetGenerator:
         self.build = False
         return gan_decoder, encoder_layers, decoder_layers
 
-
 class Discriminator:
     def __init__(self, batch_size, layer_sizes, inner_layers, use_wide_connections=False, name="d"):
         """

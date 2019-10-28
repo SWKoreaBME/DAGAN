@@ -13,7 +13,6 @@ parser.add_argument('--z_dim', nargs="?", type=int, default=100, help='The dimen
 parser.add_argument('--dropout_rate_value', type=float, default=0.5, help='dropout_rate_value')
 parser.add_argument('--num_generations', nargs="?", type=int, default=64, help='num_generations')
 
-
 args = parser.parse_args()
 batch_size = args.batch_size
 num_gpus = args.num_of_gpus
