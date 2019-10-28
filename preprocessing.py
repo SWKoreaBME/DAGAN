@@ -1,3 +1,6 @@
+import cv2
+import numpy as np
+
 def preprocessing(image, after_path, IMG_SIZE=512, sigmaX=10, tol=7) : #파라미터들은 함수에 잇는것들을 참고했습니당.
     # img : 이미지, after_path : 전처리할 이미지 저장할 경로
     # load_ben_color
